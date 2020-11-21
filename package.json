@@ -1,6 +1,6 @@
 {
   "name": "cli-csv-tools",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Functions intended for reading and writting csv files from a console, in a syncronious manner.",
   "repository": {
     "type" : "git",
@@ -18,7 +18,6 @@
   "author": "George Bora <gpbora@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "-": "0.0.1",
     "csv-writer": "^1.6.0"
   }
 }
