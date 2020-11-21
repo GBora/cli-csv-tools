@@ -1,0 +1,20 @@
+{
+  "name": "cli-csv-tools",
+  "version": "1.0.0",
+  "description": "Functions intended for reading and writting csv files from a console, in a syncronious manner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "cli",
+    "sync"
+  ],
+  "author": "George Bora <gpbora@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "-": "0.0.1",
+    "csv-writer": "^1.6.0"
+  }
+}
