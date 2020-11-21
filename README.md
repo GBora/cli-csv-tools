@@ -22,4 +22,4 @@ tools.writeCSV('output.csv', filtered, [{id: 'height', title: 'height'}, {id: 'w
 ## Methods
 
 * readCSV(filename)
-* writeCSV(filename, data, headers)
+* writeCSV(filename, data, headers) // if headers are not supplied they will be set by the fields of the first object 

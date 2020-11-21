@@ -1,6 +1,6 @@
 {
   "name": "cli-csv-tools",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Functions intended for reading and writting csv files from a console, in a syncronious manner.",
   "repository": {
     "type" : "git",

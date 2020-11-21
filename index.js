@@ -13,7 +13,18 @@ let readCSV = (filename) => {
 };
 
 let writeCSV = (filename, data, headers) => {
-    headers =  headers || [];
+    //Try and guess the headers if not given
+    if (!headers) {
+        let first = data[0];
+        let rawHeaders = Object.keys(first);
+        headers = rawHeaders.map( h => {
+            return {
+                id: h,
+                title: h
+            }
+        });
+    }
+
     const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
     const csvWriter = createCsvWriter({
