@@ -1,7 +1,11 @@
 {
   "name": "cli-csv-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Functions intended for reading and writting csv files from a console, in a syncronious manner.",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/GBora/cli-csv-tools"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
